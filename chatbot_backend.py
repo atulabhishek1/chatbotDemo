@@ -2,7 +2,6 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from langchain_aws import ChatBedrockConverse
 
-
 def demo_chatbot():
     demo_llm = ChatBedrockConverse(model="us.deepseek.r1-v1:0",
                                       temperature=0.7,
